@@ -3,10 +3,9 @@
 
 ## Future access (2025 =>)
 
-From mid 2025, public stations in the University of Melbourne Seismic network are available through AusPass. Legacy data are beign converted from an EqServer archive, and will be incremenatally added to AusPass. Metadata for the history of this network is being organised through GempSMP (https://smp.gempa.de/dansand/)
+From mid 2025, public stations in the University of Melbourne Seismic network are available through AusPass. Legacy data are beign converted from an EqServer archive to SDS, and will be incrementally added to AusPass. Metadata for the history of this network is being organised through GempSMP (https://smp.gempa.de/dansand/)
 
-In the meantime, this repository contains some information on how to access data through HTTP query. 
-
+In the meantime, this repository contains some information on how to access data from EqServer through HTTP query. 
 
 
 ## EqServer HTTP query
@@ -21,7 +20,7 @@ Download waveform data directly via the legacy server using an HTTP query:
 https://meiproc.earthsci.unimelb.edu.au/eqserver/eqwaveextractor?year=2025&month=1&day=1&hour=0&minute=0&duration=120&servernum=0&conttrig=0&sitechoice=list&sitelist=STATIONNAME&siteradius=&closesite=&radius=&latitude=&longitude=&fileformat=miniseed&getwave=Get+Waveform
 ```
 
-If this doesn't work, it is probablyt because the server needs a reboot. 
+If this doesn't work, it is probably because the server needs a reboot; post an issue on this repository for help. 
 
 
 #### Parameters
