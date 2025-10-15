@@ -3,9 +3,9 @@
 
 ## Future access (2025 =>)
 
-From mid 2025, public stations in the University of Melbourne Seismic network are available through AusPass. Legacy data are beign converted from an EqServer archive to SDS, and will be incrementally added to AusPass. Metadata for the history of this network is being organised through GempSMP (https://smp.gempa.de/dansand/)
+From mid 2025, public stations in the University of Melbourne Seismic network are available through [AusPass](https://auspass.edu.au). Legacy data are being converted from an EqServer archive to SDS, and will be incrementally added to AusPass. Metadata for the history of this network is being organised through GempSMP (https://smp.gempa.de/dansand/)
 
-In the meantime, this repository contains some information on how to access data from EqServer through HTTP query. 
+In the meantime, this repository contains some information on how to access data from [EqServer](https://www.src.com.au/software/eqserver/) through HTTP query. 
 
 
 ## EqServer HTTP query
