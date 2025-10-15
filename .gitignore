@@ -1,0 +1,73 @@
+# ---------------------------------------------------
+# Python bytecode and cache
+# ---------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ---------------------------------------------------
+# Jupyter Notebook checkpoints & hidden dirs
+# ---------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ---------------------------------------------------
+# Environment / virtual envs
+# ---------------------------------------------------
+.env
+.venv
+venv/
+env/
+*.env
+*.venv
+
+# ---------------------------------------------------
+# OS-specific files
+# ---------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------
+# Logs and temporary outputs
+# ---------------------------------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ---------------------------------------------------
+# Data, downloads, large files
+# (keep clean repo; store data under /data or /downloads)
+# ---------------------------------------------------
+data/
+downloads/
+output/
+tmp/
+*.mszip
+*.mseed
+*.xml
+*.zip
+
+# ---------------------------------------------------
+# Jupyter runtime and metadata
+# ---------------------------------------------------
+.ipython/
+.jupyter/
+.profile
+.history
+
+# ---------------------------------------------------
+# Compiled / build / distribution
+# ---------------------------------------------------
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ---------------------------------------------------
+# Custom project-specific exclusions
+# ---------------------------------------------------
+# exclude local test folders or scratch notebooks
+notebooks/sandbox/
+*_scratch.ipynb
