@@ -46,11 +46,11 @@ http://meiproc.earthsci.unimelb.edu.au/eqserver/eqwaveextractor?year=2021&month=
 > A free waveform viewer can be downloader here: https://www.src.com.au/downloads/waves/
 
 ```
-http://agoslog.earthsci.unimelb.edu.au/eqserver/eqwaveextractor?year=2021&month=9&day=21&hour=23&minute=15&duration=2&servernum=0&conttrig=0&sitechoice=list&sitelist=CLIF&siteradius=&closesite=&radius=&latitude=&longitude=&fileformat=mszip&getwave=Get+Waveform
+http://meiproc.earthsci.unimelb.edu.au/eqserver/eqwaveextractor?year=2021&month=9&day=21&hour=23&minute=15&duration=2&servernum=0&conttrig=0&sitechoice=list&sitelist=CLIF&siteradius=&closesite=&radius=&latitude=&longitude=&fileformat=mszip&getwave=Get+Waveform
 ```
 
 ```
-http://agoslog.earthsci.unimelb.edu.au/eqserver/eqwaveextractor?year=2021&month=9&day=21&hour=23&minute=15&duration=2&servernum=0&conttrig=0&sitechoice=list&sitelist=CLIF&siteradius=&closesite=&radius=&latitude=&longitude=&fileformat=mszip&getwave=Get+Waveform
+http://meiproc.earthsci.unimelb.edu.au/eqserver/eqwaveextractor?year=2021&month=9&day=21&hour=23&minute=15&duration=2&servernum=0&conttrig=0&sitechoice=list&sitelist=CLIF&siteradius=&closesite=&radius=&latitude=&longitude=&fileformat=mszip&getwave=Get+Waveform
 ```
 
 
