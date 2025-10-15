@@ -1,11 +1,13 @@
 # eqserver_data_access
 
 
-## Future access
+## Future access (2025 =>)
 
-From mid 2025, public stations in the University of Melbourne Seismic network are available through AusPass. Legacy data are beign converted from an EqServer archive, and will be incremenatally added to AusPass. 
+From mid 2025, public stations in the University of Melbourne Seismic network are available through AusPass. Legacy data are beign converted from an EqServer archive, and will be incremenatally added to AusPass. Metadata for the history of this network is being organised through GempSMP (https://smp.gempa.de/dansand/)
 
 In the meantime, this repository contains some information on how to access data through HTTP query. 
+
+
 
 ## EqServer HTTP query
 
@@ -52,3 +54,14 @@ http://agoslog.earthsci.unimelb.edu.au/eqserver/eqwaveextractor?year=2021&month=
 http://agoslog.earthsci.unimelb.edu.au/eqserver/eqwaveextractor?year=2021&month=9&day=21&hour=23&minute=15&duration=2&servernum=0&conttrig=0&sitechoice=list&sitelist=CLIF&siteradius=&closesite=&radius=&latitude=&longitude=&fileformat=mszip&getwave=Get+Waveform
 ```
 
+
+## metadata
+
+There are a number of ways of accessing metadata for UoM stations 
+
+1. StationXML Metadata created by UoM researcher prior to 2024: https://github.com/SubSurfObs/Metadata
+*   Not all stations available
+2. StationXML Metadata can be downloaded from EqServer
+* Accuracy of paramters not guaranteed (e.g. sensor type relies on operator having configure this properly)
+3. Metadata (SeisComP XML format) for the history of this network is being organised through GempSMP (https://smp.gempa.de/dansand/)
+* this is a WIP. Some stations simply have coordinate information -  all sensitivity paraters set to 1. However, it is easy to check if digitizers and recorders are set for a given stations/channel
